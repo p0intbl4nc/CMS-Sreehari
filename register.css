@@ -42,8 +42,9 @@ a:visited{
 .body{
     background-image: url('./images/index_bg.jpg');
     background-size: cover;
-    height: 80vh;
+    height: 72vh;
     width: 100vw;
+    padding-top: 8vh;
 }
 
 .footer{
@@ -80,4 +81,74 @@ a:visited{
 .fb{
     display: flex;
     justify-content: flex-end;
+}
+
+.registerform{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 30vw;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+    margin-left: 8vw;
+    border-radius: 12px;
+}
+
+.logintitle{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: x-large;
+}
+
+.details{
+    color: yellow;
+    font-size: larger;
+}
+
+#password{
+    height: 4vh;
+    width: 19vw;
+    border-radius: 10px;
+}
+
+#firstName{
+    height: 4vh;
+    width: 19vw;
+    border-radius: 10px;
+}
+#lastName{
+    height: 4vh;
+    width: 19vw;
+    border-radius: 10px;
+}
+#phone{
+    height: 4vh;
+    width: 19vw;
+    border-radius: 10px;
+}
+
+#email{
+    height: 4vh;
+    width: 19vw;
+    border-radius: 10px;
+}
+
+.submit{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#submit{
+    color: white;
+    background-color: blue;
+    height: 40px;
+    width: 75px;
+    font-size: larger;
+    border-radius: 7px;
 }
