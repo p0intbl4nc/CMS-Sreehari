@@ -139,7 +139,7 @@ a:visited{
 }
 
 .submit{
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
 }
@@ -148,7 +148,11 @@ a:visited{
     color: white;
     background-color: blue;
     height: 40px;
-    width: 75px;
+    width: 82px;
     font-size: larger;
     border-radius: 7px;
+}
+
+#submit:hover{
+    background-color: hsl(240, 100%, 30%);
 }

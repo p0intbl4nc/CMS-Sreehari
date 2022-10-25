@@ -136,3 +136,7 @@ a:visited{
     font-size: larger;
     border-radius: 7px;
 }
+
+#submit:hover{
+    background-color: hsl(240, 100%, 30%);
+}
