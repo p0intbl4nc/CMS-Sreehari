@@ -86,12 +86,12 @@ a:visited{
 .registerform{
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: 58vh;
     width: 30vw;
     background-color: black;
     justify-content: center;
     align-items: center;
-    margin-top: 8vh;
+    margin-top: 3vh;
     margin-left: 8vw;
     border-radius: 12px;
 }
@@ -110,7 +110,12 @@ a:visited{
     font-size: larger;
 }
 
-#password{
+#rpassword{
+    height: 4vh;
+    width: 19vw;
+    border-radius: 10px;
+}
+#rcPassword{
     height: 4vh;
     width: 19vw;
     border-radius: 10px;
@@ -132,19 +137,19 @@ a:visited{
     border-radius: 10px;
 }
 
-#email{
+#remail{
     height: 4vh;
     width: 19vw;
     border-radius: 10px;
 }
 
-.submit{
+.btn-signup{
     margin-top: 10px;
     display: flex;
     justify-content: center;
 }
 
-#submit{
+#btn-signup{
     color: white;
     background-color: blue;
     height: 40px;
@@ -153,6 +158,6 @@ a:visited{
     border-radius: 7px;
 }
 
-#submit:hover{
-    background-color: hsl(240, 100%, 30%);
+#regform input:invalid{
+    border-color: red;
 }

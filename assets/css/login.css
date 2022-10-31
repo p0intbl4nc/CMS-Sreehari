@@ -110,25 +110,25 @@ a:visited{
     font-size: larger;
 }
 
-#password{
+#lpassword{
     height: 4vh;
     width: 19vw;
     border-radius: 10px;
 }
 
-#username{
+#lemail{
     height: 4vh;
     width: 19vw;
     border-radius: 10px;
 }
 
-.submit{
+.btn-login{
     margin-top: 20px;
     display: flex;
     justify-content: center;
 }
 
-#submit{
+#btn-login{
     color: white;
     background-color: blue;
     height: 40px;
@@ -137,6 +137,6 @@ a:visited{
     border-radius: 7px;
 }
 
-#submit:hover{
-    background-color: hsl(240, 100%, 30%);
+#loginform input:invalid{
+    border-color: red;
 }
